@@ -5,7 +5,7 @@ pipeline {
     stage('Checkout') {
       steps {
         // Get some code from a GitHub repository
-        git branch: "main", url: 'https://github.com/jasdhiratrevature/spring-rest-jpa.git'
+        git branch: "main", url: 'https://github.com/aakashsolanke99/Jenkins-practice.git'
       }
     }
         stage('Build') {
